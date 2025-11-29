@@ -14,6 +14,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    flex-direction: column;
 }
 
 #container{
@@ -113,6 +114,18 @@ body{
     width: 0%;
     transition: width 0.3s ease;
     border-radius: 5px;
+}
+
+#credit{
+    margin-top: 50px;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 50px;
+}
+
+a{
+    text-decoration: none;
+    color:#d45b28;
 }
 
 /* result screen */
