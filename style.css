@@ -133,6 +133,9 @@ body{
 a{
     text-decoration: none;
     color:#d45b28;
+    -webkit-tap-highlight-color: transparent; /* remove blue highlight */
+    outline: none;
+    user-select: none;
 }
 
 /* result screen */
